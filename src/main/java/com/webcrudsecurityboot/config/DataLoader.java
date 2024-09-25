@@ -37,7 +37,7 @@ public class DataLoader {
         user1.setEmail("ivanov@mail.ru");
         user1.setAge(40);
         user1.setRoles(Set.of(roleAdmin));
-        user1.setPassword("root");
+        user1.setPassword("$2a$12$fJy6sBY8yPd.JDbrD/gXzO6dTKHrNIwt0cXO0JOfvB1vz4qLY4pVK");
 
         userService.saveUser(user1);
 
@@ -47,7 +47,7 @@ public class DataLoader {
         user2.setEmail("petrov@mail.ru");
         user2.setAge(25);
         user2.setRoles(Set.of(roleUser));
-        user2.setPassword("root");
+        user2.setPassword("$2a$12$fJy6sBY8yPd.JDbrD/gXzO6dTKHrNIwt0cXO0JOfvB1vz4qLY4pVK");
 
         userService.saveUser(user2);
 
@@ -57,7 +57,7 @@ public class DataLoader {
         user3.setEmail("egorova@mail.ru");
         user3.setAge(27);
         user3.setRoles(Set.of(roleUser));
-        user3.setPassword("root");
+        user3.setPassword("$2a$12$fJy6sBY8yPd.JDbrD/gXzO6dTKHrNIwt0cXO0JOfvB1vz4qLY4pVK");
 
         userService.saveUser(user3);
     }

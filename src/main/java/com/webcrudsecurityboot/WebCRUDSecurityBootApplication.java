@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @EntityScan(basePackages = {"com.webcrudsecurityboot.model"})
 @SpringBootApplication
-public class WebcrudsecuritybootApplication {
+public class WebCRUDSecurityBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebcrudsecuritybootApplication.class, args);
+		SpringApplication.run(WebCRUDSecurityBootApplication.class, args);
 	}
 
 }

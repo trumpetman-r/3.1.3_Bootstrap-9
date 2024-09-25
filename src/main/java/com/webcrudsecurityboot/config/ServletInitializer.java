@@ -1,6 +1,6 @@
 package com.webcrudsecurityboot.config;
 
-import com.webcrudsecurityboot.WebcrudsecuritybootApplication;
+import com.webcrudsecurityboot.WebCRUDSecurityBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
@@ -8,7 +8,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(WebcrudsecuritybootApplication.class);
+		return application.sources(WebCRUDSecurityBootApplication.class);
 	}
 
 }

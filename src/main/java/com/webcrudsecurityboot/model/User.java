@@ -40,7 +40,7 @@ public class User implements UserDetails {
     private Set<Role> roles = new HashSet<>();
     @Column
     @NotEmpty(message = "Empty values not allowed")
-    @Size(min = 6, max = 256, message = "Password should be between 6 and 30 character")
+    @Size(min = 4, max = 256, message = "Password should be between 6 and 30 character")
     private String password;
 
     public User() {
